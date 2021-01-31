@@ -11,9 +11,4 @@ export GOPATH=$HOME/go
 alias vim="nvim"
 alias vimconfig="vim ~/.config/nvim/init.vim"
 
-if [ -z "$SSH_AUTH_SOCK" ] ; then
-      eval `ssh-agent`
-          ssh-add
-fi
-
 source $ZSH/oh-my-zsh.sh
