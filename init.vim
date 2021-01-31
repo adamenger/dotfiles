@@ -29,6 +29,7 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set noshiftround
+set laststatus=2
 syntax on
 
 nmap <C-n> :NERDTreeToggle<CR>
