@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Initialize plugin system
@@ -30,6 +31,6 @@ set expandtab
 set noshiftround
 syntax on
 
-nmap <F6> :NERDTreeToggle<CR>
+nmap <C-n> :NERDTreeToggle<CR>
 
 colorscheme dracula
